@@ -1,0 +1,33 @@
+{
+  "name": "WIN-SC-PILOT-ConsumerExperience-v1",
+  "description": "Example settings catalog body. Blocks Windows consumer features and Cortana. Verify settingDefinitionId values with GET /beta/deviceManagement/configurationSettings or by exporting a portal-built policy.",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "roleScopeTagIds": ["0"],
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures",
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "value": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowcortana",
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "value": "device_vendor_msft_policy_config_experience_allowcortana_0",
+          "children": []
+        }
+      }
+    }
+  ]
+}

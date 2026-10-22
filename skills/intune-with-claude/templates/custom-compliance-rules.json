@@ -1,0 +1,32 @@
+{
+  "Rules": [
+    {
+      "SettingName": "SecurityAgentRunning",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://support.example.com/security-agent",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Security agent is not running",
+          "Description": "The required security agent service is stopped or missing. Restart the device or contact the service desk."
+        }
+      ]
+    },
+    {
+      "SettingName": "PowerShellV2Disabled",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://support.example.com/powershell-v2",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Windows PowerShell 2.0 is enabled",
+          "Description": "Windows PowerShell 2.0 must be removed. IT will remediate this automatically; contact the service desk if it persists."
+        }
+      ]
+    }
+  ]
+}
