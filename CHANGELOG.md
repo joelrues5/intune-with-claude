@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 - 2026-10-23
+
+- Renamed skill and plugin to `intune-management`; skill names cannot contain the reserved word "claude". Repository name unchanged.
+
 ## 1.0.0 - 2026-10-23
 
 - Initial release.

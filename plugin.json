@@ -1,0 +1,13 @@
+{
+  "name": "intune-management",
+  "version": "1.0.1",
+  "description": "Microsoft Intune management skill for Claude: configuration and settings catalog policies, compliance, app deployment, Autopilot, Conditional Access, Remediations, update rings and Graph automation.",
+  "author": {
+    "name": "Joel",
+    "url": "https://github.com/joelrues5"
+  },
+  "homepage": "https://github.com/joelrues5/intune-with-claude",
+  "repository": "https://github.com/joelrues5/intune-with-claude",
+  "license": "MIT",
+  "keywords": ["intune", "microsoft-365", "endpoint-management", "autopilot", "compliance", "graph", "msp"]
+}

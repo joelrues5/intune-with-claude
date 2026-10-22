@@ -1,5 +1,7 @@
 # Intune with Claude
 
+Skill name: `intune-management` (skill names cannot contain the word "claude").
+
 A Claude skill (packaged as a Claude Code plugin) that helps you manage Microsoft Intune: build configuration and compliance policies, package and deploy apps, set up Autopilot, write Remediations, wire up Conditional Access, automate with Microsoft Graph, and troubleshoot when things do not apply.
 
 It is written from an MSP and endpoint engineering point of view: pilot first, one owner per setting, verify and document every change.
@@ -26,7 +28,7 @@ intune-with-claude/
     plugin.json
     marketplace.json
   skills/
-    intune-with-claude/
+    intune-management/
       SKILL.md
       references/        deep guidance, loaded on demand
       scripts/           PowerShell helpers using Microsoft Graph
@@ -42,17 +44,17 @@ intune-with-claude/
 
 ```
 /plugin marketplace add joelrues5/intune-with-claude
-/plugin install intune-with-claude@intune-with-claude
+/plugin install intune-management@intune-management
 ```
 
 ### Claude.ai or Claude desktop (skill upload)
 
-1. Zip the `skills/intune-with-claude` folder so `SKILL.md` is at the top level of the zip.
+1. Zip the `skills/intune-management` folder itself (the zip should contain the `intune-management` folder, with `SKILL.md` inside it).
 2. In Claude, open Settings > Capabilities > Skills (location may vary) and upload the zip.
 
 ### Manual (Claude Code, no plugin)
 
-Copy `skills/intune-with-claude` to `~/.claude/skills/intune-with-claude` (personal) or `.claude/skills/intune-with-claude` (project).
+Copy `skills/intune-management` to `~/.claude/skills/intune-management` (personal) or `.claude/skills/intune-management` (project).
 
 ## Example prompts
 

@@ -1,0 +1,15 @@
+{
+  "name": "intune-management",
+  "owner": {
+    "name": "Joel",
+    "url": "https://github.com/joelrues5"
+  },
+  "plugins": [
+    {
+      "name": "intune-management",
+      "source": "./",
+      "description": "Microsoft Intune management skill: policies, compliance, apps, Autopilot, Remediations and Graph automation.",
+      "version": "1.0.1"
+    }
+  ]
+}

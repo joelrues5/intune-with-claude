@@ -1,0 +1,11 @@
+# Exports and reports produced by the scripts. Never commit tenant data to a public repo.
+IntuneExport-*/
+Intune*.csv
+*.intunewin
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
